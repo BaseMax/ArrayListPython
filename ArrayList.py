@@ -6,6 +6,18 @@
 #
 
 class ArrayList:
+    # -   `add` - Add an element to the end of the list
+    # -   `add_at` - Add an element at a specific index
+    # -   `remove` - Remove an element from the list
+    # -   `remove_at` - Remove an element at a specific index
+    # -   `get` - Get an element at a specific index
+    # -   `set` - Set an element at a specific index
+    # -   `size` - Get the size of the list
+    # -   `is_empty` - Check if the list is empty
+    # -   `contains` - Check if the list contains an element
+    # -   `index_of` - Get the index of an element
+    # -   `clear` - Clear the list
+    # -   `to_string` - Get a string representation of the list
     def __init__(self, size=10):
         self.size = size
         self.count = 0
