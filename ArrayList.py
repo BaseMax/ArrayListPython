@@ -56,4 +56,3 @@ class ArrayList:
     
     def __delitem__(self, index):
         del self.items[index]
-
