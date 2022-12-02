@@ -1,6 +1,6 @@
 # ArrayList Python
 
-This is a simple implementation of ArrayList in Python.
+This is a simple implementation of ArrayList in Python, full-featured and easy to use with more than 20 methods.
 
 ## Functions
 
