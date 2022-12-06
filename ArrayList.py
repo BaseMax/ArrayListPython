@@ -27,6 +27,7 @@ class ArrayList:
         if index < 0 or index >= self.size:
             raise Exception("Index out of range")
         self.items.insert(index, item)
+        self.count += 1
     
     def add_first(self, item):
         self.add_at(0, item)
@@ -38,6 +39,7 @@ class ArrayList:
         if index < 0 or index >= self.size:
             raise Exception("Index out of range")
         del self.items[index]
+        self.count -= 1
     
     def remove_first(self):
         self.remove_at(0)
